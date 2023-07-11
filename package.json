@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/image-url": "^1.0.2",
-    "@sanity/vision": "^3.14.1",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.9",
-    "next": "13.4.9",
-    "next-sanity": "^5.1.1",
+    "@sanity/block-content-to-react": "3.0.0",
+    "@sanity/client": "3.4.1",
+    "@sanity/image-url": "1.0.1",
+    "classnames": "2.3.2",
+    "date-fns": "2.29.3",
+    "next": "12.3.1",
+    "next-sanity-image": "4.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sanity": "^3.14.1"
+    "react-icons": "4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "sass": "^1.55.0"
   }
 }
